@@ -11,6 +11,12 @@ match escolha:
         Projeto_1.Quadrilatero()
     case 2:
         Projeto_2.area_quadrilatero()
+    case 3:
+        Projeto_3.perimetro_quadrilatero()
+    case 4:
+        Projeto_4.area_triangulo()
+    case 5:
+        Projeto_5.perimetro_triangulo()
     case _:
         print("Deixou uma panela cair em cima do seu teclado?")
 

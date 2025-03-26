@@ -32,12 +32,12 @@ def area_quadrilatero():
             print(f"A área do seu  retangulo é de {formula}")
         case 4:
             limpar_terminal()
-            diagonal1 = input("Informe a primeira diagonal:\n\n")
-            diagonal2 = input("Informe a segunda diagoal:\n\n")
+            diagonal1 = int(input("Informe a primeira diagonal:\n\n"))
+            diagonal2 = int(input("Informe a segunda diagoal:\n\n"))
 
             formula = diagonal1*diagonal2/2
 
-            print("A área do seu losango é de {formula}")
+            print(f"A área do seu losango é de {formula}")
         case 5:
             base = int(input("informe a base:\n\n"))
             altura = int(input("informe a altura:\n\n"))
